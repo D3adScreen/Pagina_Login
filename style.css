@@ -20,14 +20,25 @@ body{
     background: linear-gradient(135deg, #ffb347, #ff9a76);
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    text-align: center;
 }
+.container_signup{
+    width: 420px;
+    background: linear-gradient(135deg, #ffb347, #ff9a76);
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 45px 35px;
+    display: none;
+}
+
 .login-form{
     display: flex;
     flex-direction: column;
     align-items: center;;
     padding: 20px;
 }
-#email, #password{
+#email, #password, #firstname, #lastname, #phone{
     width: 100%;
     padding: 20px;
     margin: 10px 0;
