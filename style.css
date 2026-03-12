@@ -16,11 +16,12 @@ body{
     background: linear-gradient(135deg, #ff9a76, #ffb347); ;
 }
 .container{
-    width: 400px;
+    width: 420px;
     background: linear-gradient(135deg, #ffb347, #ff9a76);
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
     text-align: center;
+    padding: 45px 35px;
 }
 .container_signup{
     width: 420px;
