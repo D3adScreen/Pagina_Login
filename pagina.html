@@ -1,23 +1,23 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="pt">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Página de Login</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="login-form">
+    <div class="container"> <!-- Adicionei a classe "container" para o elemento pai -->
+        <div id="login-form" class="login-form">
         <h1>Login</h1>
             <input type="email" id="email" name="email" placeholder="Email">
             <input type="password" id="password" name="password" placeholder="Password">
-
-            <button>Login</button>
+            <div id="forgot_password">Forgot your password?</div>
+            <button id="Login_button">Login</button>
             <p>Don't have an account?<span id="Sign_Up"> Sign up</span></p>
         </div>
     </div>
-        <div class="container_signup">
-        <div class="signup-form">
+        <div class="container_signup"> <!-- Adicionei a classe "container_signup" para o elemento pai -->
+        <div id="signup-form" class="signup-form">
         <h1>Sign Up</h1>
             <input type="text" id="firstname" name="name" placeholder="First Name">
             <input type="text" id="lastname" name="lastname" placeholder="Last Name">
@@ -29,5 +29,14 @@
             <p>Already have an account?<span id="Login"> Login</span></p>
         </div>
     </div>
+    <div class="container_forgotPassword"> <!-- Adicionei a classe "container_forgotPassword" para o elemento pai -->
+        <div id="forgot-password-form" class="forgot-password-form">
+        <h1>Forgot Password</h1>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <button>Reset Password</button>
+            <p>Remember your password?<span id="Login2"> Login</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
